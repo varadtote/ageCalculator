@@ -1,0 +1,154 @@
+/* // mobile  */
+
+@media screen and (max-width:640px) {
+
+
+    .layout {
+        width: 80%;
+        height: 60%;
+        border-bottom-right-radius: 25%;
+    }
+
+    input {
+        font-size: 24px;
+    }
+
+    button {
+        top: 25%;
+        right: 40%;
+    }
+
+    button svg {
+        height: 30px;
+        width: 100%;
+        padding: 8px;
+    }
+
+    .result {
+        padding-top: 38px;
+        font-size: 3rem;
+    }
+
+    .displayNumber {
+        font-size: 3.5rem;
+    }
+
+    .field_with_errors {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width:640px) {
+
+
+    .layout {
+        width: 50%;
+        height: 55%;
+        border-bottom-right-radius: 25%;
+    }
+
+    input {
+        font-size: 18px;
+    }
+
+    button {
+        top: 25%;
+        right: 10%;
+    }
+
+    button svg {
+        height: 40px;
+        width: 100%;
+        padding: 8px;
+    }
+
+    .result {
+        padding-top: 28px;
+        font-size: 3.5rem;
+    }
+
+    .displayNumber {
+        font-size: 3.5rem;
+    }
+
+    .field_with_errors {
+        font-size: 12px;
+    }
+}
+
+/* // tablet  */
+@media screen and (min-width:768px) {
+
+
+    .layout {
+        width: 40%;
+        height: 60%;
+    }
+
+    input {
+        font-size: 34px;
+    }
+
+    button {
+        top: 28%;
+        right: 10%;
+    }
+
+    button svg {
+        height: 60px;
+        width: 100%;
+    }
+
+    .result {
+        /* padding-top: 38px; */
+        font-size: 4rem;
+    }
+
+    .displayNumber {
+        font-size: 4rem;
+    }
+
+    .field_with_errors {
+        font-size: 12px;
+    }
+
+
+}
+
+/* desktop  */
+@media screen and (min-width:1024px) {
+
+    .layout {
+        max-width: 768px;
+        width: 40%;
+        height: 70%;
+    }
+
+    input {
+        font-size: 45px;
+    }
+
+    button {
+        right: 5%;
+    }
+
+    button svg {
+        height: 80px;
+        width: 100%;
+    }
+
+    .result {
+        padding-top: 38px;
+        font-size: 4rem;
+    }
+
+    .displayNumber {
+        font-size: 4rem;
+    }
+
+    .field_with_errors {
+        font-size: 12px;
+    }
+
+}
