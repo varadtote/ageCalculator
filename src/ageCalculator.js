@@ -1,5 +1,3 @@
-
-
 export function calculateAge(birthdate) {
   var currentDate = new Date();
   var birthdateObj = new Date(birthdate);
@@ -17,12 +15,12 @@ export function calculateAge(birthdate) {
     years--;
     months += 12;
   }
-  
+
   let resObj = {
     years: years,
     months: months,
-    days: days
-  }
+    days: days,
+  };
   return resObj;
 }
 
@@ -36,4 +34,3 @@ function daysInMonth(month, year) {
 // var age = calculateAge(birthdate);
 // console.log(age);
 // console.log(age.years) //// YYYY
-

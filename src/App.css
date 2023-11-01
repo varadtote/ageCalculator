@@ -1,6 +1,6 @@
 /* ## Colors  */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
 
 /* ## Weights  */
 /* ## {400i} {700} {800i} */
@@ -12,7 +12,6 @@
 }
 
 :root {
-
   /* ### Primary  */
   --purple: hsl(259, 100%, 65%);
   --light-red: hsl(0, 100%, 67%);
@@ -25,10 +24,8 @@
   --smokey-grey: hsl(0, 1%, 44%);
   --off-black: hsl(0, 0%, 8%);
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
-
 
 .App {
   display: flex;
@@ -38,7 +35,6 @@
   width: 100vw;
 
   background-color: var(--Off-white);
-
 }
 
 .layout {
@@ -63,16 +59,14 @@ input {
   padding-inline: 8px;
 }
 
-
 .errorDay {
   color: red;
   border: 1px solid red;
 }
 
 .errorDay::after {
-  content: 'Required';
+  content: "Required";
 }
-
 
 .field_with_errors {
   font-size: 8px;
@@ -81,37 +75,35 @@ input {
   color: red;
 }
 
-.input.errorBorderDay.input+span:after {
+.input.errorBorderDay.input + span:after {
   display: visible;
   content: "Must be a valid day";
   font-style: italic;
   font-size: 12px;
-  color: red
+  color: red;
 }
 
 .inputMonth {
   border: 1px solid var(--light-grey);
 }
 
-.inputMonth.errorBorderMonth.inputMonth+span:after {
+.inputMonth.errorBorderMonth.inputMonth + span:after {
   content: "Must be a valid month";
   font-style: italic;
   font-size: 12px;
-  color: red
+  color: red;
 }
 
 .inputYear {
   border: 1px solid var(--light-grey);
 }
 
-.inputYear.errorBorderYear.inputYear+span:after {
+.inputYear.errorBorderYear.inputYear + span:after {
   content: "Must in the past";
   font-style: italic;
   font-size: 12px;
-  color: red
+  color: red;
 }
-
-
 
 input:focus {
   outline: none;
@@ -121,10 +113,6 @@ input:focus {
 input:hover {
   border: 1px solid var(--purple);
 }
-
-
-
-
 
 /* Button  */
 
@@ -151,8 +139,6 @@ button:hover svg {
 button:hover {
   outline: none;
 }
-
-
 
 .InputGrid {
   display: flex;
@@ -193,7 +179,9 @@ label {
 }
 
 .displayNumber {
+  font-weight: 800;
+  font-style: italic;
   font-size: 48px;
   color: var(--purple);
+  padding-right: 8px;
 }
-

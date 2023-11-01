@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import './mediaStyles.css'
+import "./mediaStyles.css";
 import ArrowSVG from "./ArrowSVG";
 import { calculateAge } from "./AgeCalculator";
 import { Input } from "./components/Input";
