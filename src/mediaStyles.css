@@ -119,9 +119,6 @@
 /* desktop  */
 @media screen and (min-width:1024px) {
 
-    .App {
-        background-color: green;
-    }
 
     .layout {
         max-width: 768px;
@@ -130,7 +127,7 @@
     }
 
     input {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     button {
