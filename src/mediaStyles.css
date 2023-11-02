@@ -3,12 +3,16 @@
 @media screen and (max-width: 640px) {
   .layout {
     width: 95%;
-    height: 60%;
+    height: 70%;
     border-bottom-right-radius: 25%;
   }
 
+  label {
+    font-size: 12px;
+  }
+
   input {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   button {
@@ -23,13 +27,13 @@
   }
 
   .result {
-    padding-block: 18px;
-    font-size: 3rem;
+    padding-top: 50px;
+    font-size: 2.5rem;
     padding-right: 8px;
   }
 
   .displayNumber {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .field_with_errors {
